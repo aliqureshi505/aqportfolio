@@ -1,0 +1,306 @@
+
+
+<style>
+
+#main-jumbo{ background-image: url("img/c.jpg");
+			 background-size: cover;
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			}
+
+
+#why_to_choose h2{color: white; font-weight: bolder;}	
+
+
+#why_to_choose{ background-image: url("img/ex1.jpg");
+			 background-size: cover;
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			}
+
+
+.btn-primary{border-radius: 0px; font-size: 18px; padding: 10px; background-color: yellow; color: black; border: none;}			
+
+#why_to_choose p{font-weight: bold; font-size: 24px; letter-spacing: 1px; color: #FFEB3B; margin-top: 40px; line-height: 40px;}
+
+
+
+#welcome{ color: white; font-weight: bold; font-size: 35px; letter-spacing: 1px; }	
+#para{color: #FFEB3B; font-size: 25px; margin:20px; line-height: 42px;}
+
+ #jumbo-btn .w3-button {border-radius:20px; 
+ 				 background-color:#FF5722;
+ 				 color: white;
+ 				 font-size: 20px; }
+
+ #jumbo-btn .w3-button:hover {border-radius:20px;}
+
+ #under_btn .btn{border-radius: 0px; margin-top: 5px; font-size: 18px; background-color: #00FFFF; border: 2px solid transparent; color: black; margin-right: 10px;}
+ #under_btn .btn:hover{background-color: transparent; border: 2px solid aqua; font-size: 18px; color: white;}
+
+ #main-jumbo nav{background-color: #3D544A; padding-top: 0px;  }
+ .icon-bar{border: 1px solid white;}
+ .navbar-toggle{border: 1px solid white;}
+ .navbar-collapse{border-bottom: 1px solid transparent;}
+ .navbar-right li a{color: white; font-size: 16px; border-bottom: 8px solid transparent;  margin-right: 16px; } 
+ .navbar-brand{color: white; }
+ .navbar-brand:hover{color: #00BCD4; }
+ .navbar-right li a:hover{ border-bottom: 2px solid #00FFFF; color: #00FFFF; background-color: transparent; } 
+
+
+#projects img{ margin-left: 0px; margin-top: 30px; display: inline; height: 250px;} 	
+#projects h4{font-weight: bold; margin: 15px;}
+
+
+#site{border-radius: 20px; font-size: 16px; border: 3px solid #9C27B0;  background-color: #9C27B0; height: 40px;color: white; letter-spacing: 1px; font-weight: bold; width:70%; margin: 4px;}	
+#pic{border-radius: 20px; border: 2px solid #B8D518; background-color: #B8D518; height: 40px;color: #42454A; font-weight: bold; width:150px; margin-right: 1px;}
+#site:hover{border-radius: 20px; border: 3px solid #9C27B0;height: 40px; background-color: transparent; color: #9C27B0; font-weight: bold; width:70%;}	
+#pic:hover{border-radius: 20px; border: 3px solid #B8D518; height: 40px;background-color: transparent; color: #42454A; font-weight: bold; width:150px;}	 				 
+
+#project_div:hover{box-shadow: 0px 0px 50px #888888;}
+
+#project_div{ padding-bottom: 5px; margin-top: 20px;  }
+
+
+
+/* ABOUT DEVELOPER CSS*/
+
+	#aa label{ font-size: 24px;  letter-spacing: 2px;  }
+	#desc{font-size: 20px; line-height: 35px; /*color: #1E2B24 */ }
+	#aboutdev{margin-top: 20px;}
+	#aboutdev h3{font-weight: bold; letter-spacing: 1px; color: aqua;}
+	#aboutdev{background-image: url("img/5.jpg"); background-size: cover;   background-repeat: no-repeat; color: white}
+	#contact_btn{background-color: aqua; width:200px;  border: 2px solid transparent; color:black; font-size: 18px; border-radius: 20px;}
+	#contact_btn:hover{background-color: transparent;  border: 2px solid #FF5722; color: white; }
+
+
+#follow-us{background-image: url("img/followbg1.gif"); background-repeat: no-repeat; background-size: cover; padding: 50px; margin-bottom: 20px;}
+#follow-us .fa{  text-align: center; font-size: 32px; 
+					border-radius: 50px; color: white;
+					margin-right: 15px; padding-top: 10px; 
+					display: inline-block; width: 60px; height: 60px;
+					border: 3px solid aqua; margin-top: 5px;
+				}
+	#follow-us a:hover{text-decoration: none;}
+	#follow-us .fa-facebook:hover{color: #3B5998; border: 3px solid #3B5998}
+
+	#follow-us .fa-twitter:hover{color: #1DA1F2; border: 3px solid #1DA1F2}
+
+	#follow-us .fa-google-plus:hover{color: #DD4B3E; border: 3px solid #DD4B3E}
+	#follow-us .fa-skype:hover{color: #55ACEE; border: 3px solid #55ACEE}
+	#follow-us .fa-linkedin:hover{color: lightblue; border: 3px solid #55ACEE}
+
+/*
+#about_dev{background-image: url("img/new1.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;}
+#about_dev div{border: 1px solid red;}			
+#about_dev h1{color: white;}
+#about_dev h5{color: white; margin-left: 300px; padding-top: 50px;}
+#about_dev p{color: white; font-size: 20px; padding: 50px; line-height: 40px;}*/
+
+
+#loc{background-image: url("img/t3.jpg"); 
+background-size: cover;
+
+background-repeat: no-repeat;
+}
+#loc #leavemsg{background-color: aqua; color: black;}
+#loc textarea{ color: black }
+#loc #dev-contact {color: white;}
+#loc .fa{color: #00FFFF}
+
+
+section {
+    padding: 10px 0px 30px 0px;
+}
+
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+section.success {
+  background: #18BC9C;
+  color: white;
+}
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+}
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+ /* background: rgba(24, 188, 156, 0.9);
+  */
+	background: orange;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 23px;
+  text-align: center;
+  top: 30%;
+  margin-top: -12px;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#portfolio * {
+  z-index: 2;
+}
+
+
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.star-light {
+  border-color: white;
+}
+hr.star-light:after {
+  background-color: #18BC9C;
+  color: white;
+}
+hr.star-primary {
+  border-color: #2C3E50;
+}
+hr.star-primary:after {
+  background-color: white;
+  color: #2C3E50;
+}
+
+
+img.img-responsive {
+    margin-top: 30px;
+}
+
+
+#contact_btn:hover {
+    background-color: transparent;
+    border: 2px solid #00ffff;
+    /* margin-right: 20; */
+    color: white;
+}
+
+#why_to_choose p {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #FFEB3B;
+    margin-top: 40px;
+    line-height: 40px;
+
+  }
+.btn-primary:hover {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+    font-size: 18px;} 
+
+
+input::-webkit-input-placeholder {
+  opacity: 1;
+color: black !important;
+
+}
+
+section#portfolio {
+    margin-top: -29px;
+}
+
+
+
+
+/*Our clients tab*/
+#client-heading{
+  color: purple; font-weight: bolder;
+}
+
+
+#clients .col-md-4 {
+    align-items: center;
+    padding-left: 0px;
+}
+#client-name{text-align: center; color: purple; font-size: 17px; font-weight: bold; margin-top: 20px;}
+#client-review{text-align: center; font-size: 15px; }
+#review-star{color: #FFBF00; text-align: center;}
+#review-button{border-radius: 0px; border: 3px solid transparent; background-color: purple; color: white; font-size: 18px;}
+#review-button:hover{background-color: transparent; border: 3px solid purple; color: purple;}
+p#client-review {
+    text-align: center;
+}
+
+
+
+img.w3-spin {
+    z-index: 999;
+    
+    margin-top: -12px;
+}
+
+
+
+
+#team_bg{background-color: #eee; padding: 12px 0px 30px 0px;}
+#team_bg #team_name{text-align: center; color: #A90037; font-weight: bold; font-size: 21px;}
+#team_bg #team_desc{text-align: center; color: black;}
+div#team_folllow_icon {
+    text-align: center;
+}
+#team_bg #team_folllow_icon .fa{text-align: center; font-size: 24px; color: #A90037; margin-left:20px; margin-top: 5px; }
+div#team_folllow_icon:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+#team_img{margin: 20px; }
+
+#team_mem{color: #A90037; font-weight: bold;}
+
+#team_folllow_icon .fa {border: 1px solid #A90037; height:40px;  width: 45px; border-radius: 20px; padding: 7px;}
+#team_folllow_icon .fa:hover{ color: white; background-color: #A90037; }
+</style>
